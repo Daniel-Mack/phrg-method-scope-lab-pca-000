@@ -99,4 +99,9 @@ end
 ```
 
 Notice the last expectation of our test: `expect{puts status}.to raise_error(NameError)`. We expect any attempt to use the `status` variable to be met with a `NameError`. Our program, outside of the `#rescue_princess_peach`method, just doesn't know what it is. 
+
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-students/phrg-method-scope-lab-pca-000/pulls) or [pull-request](https://github.com/learn-co-students/phrg-method-scope-lab-pca-000/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p data-visibility='hidden'>PHRG Method Scope Lab</p>
